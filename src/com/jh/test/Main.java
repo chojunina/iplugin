@@ -16,7 +16,7 @@ public class Main extends JavaPlugin implements Listener {
     }
 
     @Override
-    public void onLoad() {
+    public void onDisable() {
         instance = this;
         instance.getLogger().info("이나의 플러그인이 멈춤니다");
     }
